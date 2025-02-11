@@ -1,0 +1,56 @@
+:root {
+    --rojo-50: #fff1f1;
+    --rojo-100: #ffe0e0;
+    --rojo-200: #ffc7c7;
+    --rojo-300: #ffa0a0;
+    --rojo-400: rgb(255, 106, 106);
+    --rojo-500: #f83b3b;
+    --rojo-600: #e61c1c;
+    --rojo-700: #d11515;
+    --rojo-800: #a01414;
+    --rojo-900: #841818;
+    --rojo-950: #480707;
+
+    /* Gradientes */
+    --gradiente-suave: linear-gradient(135deg, var(--rojo-50), var(--rojo-300));
+    --gradiente-intenso: linear-gradient(135deg, var(--rojo-500), var(--rojo-800));
+    --gradiente-fuego: linear-gradient(90deg, var(--rojo-400), var(--rojo-600), var(--rojo-900));
+    --gradiente-oscuridad: linear-gradient(180deg, var(--rojo-950), var(--rojo-800));
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 600;
+    width: 100%;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--rojo-50);
+    background: none;
+}
+.boton:hover{
+    background: none;
+    border: 2px solid var(--rojo-50);
+    opacity: 90%;
+    background: var(--rojo-500);
+}
+
+/*MODAL */
+.modal{
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0, 0.80);
+    z-index: 1000;
+}
+.modal-container{
+    
+}
+
+

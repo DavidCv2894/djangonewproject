@@ -1,0 +1,151 @@
+{% extends "base.html" %}
+{% load static %}
+{% block 'content' %}
+<link rel="stylesheet" type="text/css" href="{% static "css/inicio.css" %}">
+<div class="carrusel">
+    <div class="carrusel-items">
+        <div class="carrusel-item">
+            <img src="{% static "img/galeria5.jpg" %}" alt="" class="carrusel-item-img">
+            <div class="carrusel-item-text">
+                <h2>Construcción</h2>
+                Obras viales - Obras civiles</div>
+        </div>
+        <div class="carrusel-item">
+            <img src="{% static "img/extintores.jpg" %}" alt="" class="carrusel-item-img">
+            <div class="carrusel-item-text">
+                <h2>Extintores</h2>
+                Matafuegos – Red de incendio</div>
+        </div>
+        <div class="carrusel-item">
+            <img src="{% static "img/seguridad2.jpg" %}" alt="" class="carrusel-item-img">
+            <div class="carrusel-item-text">
+                <h2>Seguridad</h2>
+                Ropa de trabajo - Productos EPP- Seguridad industrial.</div>
+        </div>
+        <div class="carrusel-item">
+            <img src="{% static "img/img1.jpeg" %}" alt="" class="carrusel-item-img">
+        </div>
+        <div class="carrusel-item">
+            <img src="{% static "img/WhatsApp_Image_2020-04-08_at_8_30_22_PM.jpeg" %}" alt="" class="carrusel-item-img">
+           
+        </div>
+        <div class="carrusel-item">
+            <img src="{% static "img/WhatsApp_Image_2020-12-17_at_11_00_00_AM.jpeg" %}" alt="" class="carrusel-item-img">
+            
+        </div>
+        <div class="carrusel-item">
+            <img src="{% static "img/WhatsApp_Image_2022-07-28_at_12_02_56_PM.jpeg" %}" alt="" class="carrusel-item-img">
+        </div>
+        <div class="carrusel-item">
+            <img src="{% static "img/WhatsApp_Image_2022-10-19_at_15_55_15.jpeg" %}" alt="" class="carrusel-item-img">
+
+        </div>
+        
+    </div>
+</div>
+<div class="inicio-container">
+    <div class="empresa-container" id ="nav_menu_empresa_container">
+        <div class="empresa-container-header">
+            <h2>Nuestra Empresa</h2>
+        </div>
+    
+        <div class="empresa-container-body">
+            <div class="empresa-container-body-item1">
+                JML ofrece soluciones integrales en equipamiento, ingeniería y servicios viales para la protección y seguridad.
+                Somos una empresa  ofreciendo todo tipó de servicios a nuestros clientes.
+                El sostén de nuestra política comercial se basa en el compromiso de brindar a nuestros clientes productos y servicios de calidad certificada, con una excelente atención de pre y post venta.
+                <div class="empresa-container-body-item1-sub_item1" id='empresa_container_body_item1_sub_item1_list'>
+                    Nuestros productos y procesos están sometidos al estricto control de calidad.
+                    Nuestro sistema de Gestión de la Calidad en cuanto al cumplimiento segun Norma IRAM 3517/2
+                    Actividades principales:</br></br>
+                    <ul class="empresa-container-body-item1-sub_item1-list" >
+                        <li>
+                            Venta, reparación y mantenimiento de Matafuegos (Extintores) de todo tipo y capacidad. 
+                        </li>
+                        <li>
+                            Provisión, ingeniería, en redes de incendio.
+                        </li>
+                        <li>
+                            Provisión de Broncería para incendio.
+                        </li>
+                        <li>
+                            Provisión de Mangueras para incendio.
+                        </li>
+                        <li>
+                            Provisión de gabinetes para Matafuegos (Extintores) y mangueras de incendio, etc.
+                        </li>
+                        <li>
+                            Provisión de productos EPP
+                        </li>
+                        <li>
+                            Servicio de obras civiles.
+                        </li>
+                        <li>
+                            Servicio de máquinas viales.
+                        </li>
+                    </ul>
+                </div>      
+            </div>
+
+        </div>
+        <div class="empresa-container-footer">
+            <div class="boton" id='vermas_btn'>Ver mas</div>
+        </div>
+    </div>
+    <div class="mision-container">
+        <div class="mision-container-header">
+            <h2>Mision</h2>
+        </div>
+        <div class="mision-container-body">
+            Somos una empresa familiar especializada en el rubro, que busca la satisfacción total de nuestros clientes, respaldados por nuestra propia asesoría técnica y un factor humano competente logrado mediante el desarrollo personal y profesional, comprometido con la calidad del servicio, con la mejora continua y persiguiendo el bienestar de sus recursos humanos.
+        </div>
+        <div class="mision-container-footer">
+
+        </div>
+    </div>
+</div>
+<div class="servicios-container">
+    <div class="servicios-container-header">
+        <h1>Servicios</h1>
+    </div>
+    <div class="servicios-container-body">
+        <div class="servicios-container-body-item" id="contruccion_btn">
+            <div class="servicios-container-body-item-header">
+                <i class="fa-solid fa-truck-pickup"></i>
+            </div>
+            <div class="servicios-container-body-item-footer" >
+                <h3>Construcción</h3>
+            </div>
+        </div>
+        <div class="servicios-container-body-item" id="extintores_btn">
+            <div class="servicios-container-body-item-header">
+                <i class="fa-solid fa-fire-extinguisher"></i>
+            </div>
+            <div class="servicios-container-body-item-footer">
+                <h3>Extintores</h3>
+            </div>
+        </div>
+        <div class="servicios-container-body-item" id="seguridad_btn">
+            <div class="servicios-container-body-item-header">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+            </div>
+            <div class="servicios-container-body-item-footer">
+                <h3>Seguridad</h3>
+            </div>
+        </div>
+
+    </div>
+    <div class="servicios-container-footer">
+        
+        
+    </div>
+</div>
+<section class="modal" id="modal" hidden>
+    
+    <div class="modal-container" id='modal_container'>
+     
+    </div>
+</section>
+<script src="{% static "js/inicio.js" %}"></script>
+<script src="https://kit.fontawesome.com/c41be49bc5.js" crossorigin="anonymous"></script>
+{% endblock  %}
